@@ -1,0 +1,30 @@
+database:
+  host: localhost
+  port: 5555
+  name: copper_tracker
+  user: copper_user
+
+data:
+  raw_path: data/raw
+  processed_path: data/processed
+  external_path: data/external
+
+model:
+  output_path: models/
+  target_column: cu_pct
+  features:
+    - x
+    - y
+    - z
+    - sample_length
+
+xgboost:
+  n_estimators: 300
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+api:
+  host: 0.0.0.0
+  port: 8000
