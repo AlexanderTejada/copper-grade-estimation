@@ -7,3 +7,13 @@ pyyaml>=6.0
 fastapi>=0.111
 uvicorn>=0.29
 mcp>=1.0
+
+# xgboost>=2.0	Librería de machine learning para modelos de gradient boosting, usada para predicción/clasificación
+# scikit-learn>=1.4	Herramientas de machine learning: preprocesamiento, modelos, evaluación, validación
+# pandas>=2.0	Manipulación y análisis de datos (DataFrames, series, lectura de CSV/Excel)
+# numpy>=1.26	Computación numérica (arrays multidimensionales, operaciones matemáticas)
+# psycopg2-binary>=2.9	Conector para bases de datos PostgreSQL desde Python
+# pyyaml>=6.0	Parseo y generación de archivos YAML (como config.yml)
+# fastapi>=0.111	Framework moderno para crear APIs REST en Python
+# uvicorn>=0.29	Servidor ASGI que ejecuta FastAPI en producción
+# mcp>=1.0	Model Context Protocol (visto en tus carpetas mcp_servers/) para integración con herramientas
